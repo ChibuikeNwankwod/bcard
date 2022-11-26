@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            width: 400px;
+            aspect-ratio: 1/1;
+            background: darkgreen;
+            border-radius: 50%;
+            margin: auto;
+            position: relative;
+        }
+        .eye{
+            width: 20%;
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 20%;
+
+        }
+        .right{
+            right:10%;
+        }
+        .left{
+            left:10%;
+        }
+        .nose{
+            width: 20%;
+            aspect-ratio: 1/2;
+            background-color: wheat;
+            border-bottom-right-radius:50% ;
+            border-bottom-left-radius:50% ;
+            position:absolute;
+            left: 40%;
+            top: 30%;
+        }
+        .mouth{
+            width: 40%;
+            aspect-ratio: 3/1;
+            background: rgb(175, 182, 175);
+            position:absolute;
+            bottom: 5%;
+            left:30% ;
+            border-bottom-right-radius:50% ;
+            border-bottom-left-radius:50% ;
+            
+        }
+        .test{
+            width: 400px;
+            aspect-ratio: 1/1;
+            background: darkgreen;
+            border-radius: 50%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            z-index: 200;
+        }
+    </style>
+</head>
+<body>
+    <div class="test"></div>
+    <div class="head">
+        <div class="eye left "></div>
+        <div class="eye right "></div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+        
+    </div>
+</body>
+</html>
